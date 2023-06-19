@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://google-hydra-4064.g8z.cockroachlabs.cloud:26257/javaDb
+    username: leron
+    password: 74MoVx0XKeT71dd0mfIwfQ
+    driver-class-name: org.postgresql.Driver
+
+
+  jpa:
+    rest:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    #        default_schema: text-message
+    hibernate:
+      ddl-auto: create
+    show-sql: false
